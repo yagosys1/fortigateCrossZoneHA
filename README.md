@@ -1,4 +1,4 @@
-please modify intl.auto.tfvars before deploy
+The terraform version and alicloud provider Version tested 
 
 ```
 Terraform v1.4.5
@@ -9,7 +9,11 @@ on linux_amd64
 + provider registry.terraform.io/hashicorp/time v0.9.1
 
 ```
+
+
 how to run
+modify intl.auto.tfvars value such as region, version etc., then 
+
 ```
 terraform init
 
